@@ -120,7 +120,7 @@ const ViewTodos = () => {
                         Your Todo List
                     </h2>
                     <p className="mt-2 text-center text-gray-600">
-                        Or <Link to="/create-todo" className="text-yellow-500">create a new todo</Link>
+                        Or <Link to="/create-todo" className="text-yellow-500">create a new to do</Link>
                     </p>
                 </div>
                 <div className="bg-white shadow overflow-hidden sm:rounded-md">

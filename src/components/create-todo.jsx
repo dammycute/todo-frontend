@@ -39,10 +39,10 @@ const CreateTodo = () => {
             <div className="max-w-lg w-full space-y-8 p-10 bg-white shadow-lg rounded-xl">
                 <div>
                     <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-                        Create a new Todo
+                        Create a new To do
                     </h2>
                     <p className="mt-2 text-center text-gray-600">
-                        Or <Link to="/todo-details" className="text-red-500">view your todos</Link>
+                        Or <Link to="/todo-details" className="text-red-500">view your to dos</Link>
                     </p>
                 </div>
                 <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
