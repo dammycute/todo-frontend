@@ -14,7 +14,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://127.0.0.1:8000/api/auth/register",
+      const response = await axios.post("https://htcode12.pythonanywhere.com/api/auth/register",
         {
           email: email,
           username: username,

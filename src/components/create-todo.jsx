@@ -13,7 +13,7 @@ const CreateTodo = () => {
         // Handle form submission here
 
         try {
-            const response = await axios.post("http://127.0.0.1:8000/api/todos/",
+            const response = await axios.post("https://htcode12.pythonanywhere.com/api/todos/",
                 {
                     title: title,
                     desc: desc

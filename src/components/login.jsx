@@ -12,7 +12,7 @@ const Login = () => {
     // Handle form submission here
     
     try {
-        const response = await axios.post("http://127.0.0.1:8000/api/token",
+        const response = await axios.post("https://htcode12.pythonanywhere.com/api/token",
         {
             email: email,
             password: password

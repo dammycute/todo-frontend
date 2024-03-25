@@ -15,7 +15,7 @@ const ViewTodos = () => {
         const fetchTodoData = async () => {
             try {
                 const response = await axios.get(
-                    `http://127.0.0.1:8000/api/todos/?page=${currentPage}`,
+                    `https://htcode12.pythonanywhere.com/api/todos/?page=${currentPage}`,
                     {
                         headers: {
                             Authorization: token,
@@ -68,7 +68,7 @@ const ViewTodos = () => {
         if (selectedTodo) {
             try {
                 const response = await axios.patch(
-                    `http://127.0.0.1:8000/api/todos/${selectedTodo.id}`,
+                    `https://htcode12.pythonanywhere.com/api/todos/${selectedTodo.id}`,
                     {
                         is_complete: !selectedTodo.is_complete,
                     },
@@ -95,7 +95,7 @@ const ViewTodos = () => {
         if (selectedTodo) {
             try {
                 const response = await axios.delete(
-                    `http://127.0.0.1:8000/api/todos/${selectedTodo.id}`,
+                    `https://htcode12.pythonanywhere.com/api/todos/${selectedTodo.id}`,
                     {
                         headers: {
                             Authorization: token,
